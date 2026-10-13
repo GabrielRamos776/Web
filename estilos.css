@@ -1,0 +1,147 @@
+body {
+    background-color: #0b1f33;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+header {
+    background-color: #071525;
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    background-color: #123456;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: white;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+    color: #7dd3fc;
+}
+
+
+main {
+    background-color: #0b1f33;
+    color: white;
+    padding: 30px 0;
+    min-height: 65vh;
+}
+
+
+h2, h3, h4, h5 {
+    color: #7dd3fc;
+}
+
+
+.card {
+    background-color: #16324f;
+    color: white;
+    border: 1px solid #294b6b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card .card-title {
+    color: #7dd3fc;
+}
+
+.card .card-text {
+    color: #ffffff;
+}
+
+
+.imagen-principal {
+    width: 100%;
+    max-height: 350px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+.btn-novatech {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+}
+
+.btn-novatech:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+
+.form-label {
+    color: white;
+}
+
+.form-control {
+    background-color: #16324f;
+    color: white;
+    border: 1px solid #52718f;
+}
+
+.form-control::placeholder {
+    color: #c3d1df;
+}
+
+.form-control:focus {
+    background-color: #16324f;
+    color: white;
+    border-color: #7dd3fc;
+    box-shadow: 0 0 5px #7dd3fc;
+}
+
+
+footer {
+    background-color: #071525;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+    main {
+        padding: 20px 12px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    .imagen-principal {
+        margin-top: 20px;
+    }
+}
